@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828385193455",
+    "project_id": "moviedb-df693",
+    "storage_bucket": "moviedb-df693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828385193455:android:a02483057518ae35955a1a",
+        "android_client_info": {
+          "package_name": "com.leandroyu.moviedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828385193455-3eekado2b4o1592nmf7sonp1avurc4ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leandroyu.moviedb",
+            "certificate_hash": "39c0fc40afd77e29fcc4ff4170cf962abd900d65"
+          }
+        },
+        {
+          "client_id": "828385193455-nh2as6pb961jdn69le3543vo4fiq874a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbinEzypvFNsTbjyC3nmnVHAgVDS9hkNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828385193455-nh2as6pb961jdn69le3543vo4fiq874a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
