@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movie_db_project/application/utils/utils.dart';
+import 'package:movie_db_project/application/utils/app_assets_path.dart';
+import 'package:movie_db_project/application/utils/app_theme.dart';
+import 'package:movie_db_project/application/utils/ui_media_query.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);
@@ -13,12 +15,12 @@ class _SplashViewState extends State<SplashView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: const Color(0xff030521),
+        color: AppTheme.darkBlue,
         child: Center(
           child: SizedBox(
             height: heightPercent(50, context),
             width: widthPercent(50, context),
-            child: Image.asset('assets/movie_logo.png'),
+            child: Image.asset(AppAssetsPath.logoPath),
           ),
         ),
       ),

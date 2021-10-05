@@ -13,10 +13,15 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-
+  social_auth_buttons: ^2.0.0-nullsafety.1
+  font_awesome_flutter: ^9.1.0
+  logger: ^1.1.0
 
   #GetX
   get: ^4.3.8
+
+  #Social Login
+  google_sign_in: ^5.1.1
 
   #Firebase
   firebase_core: ^1.7.0
